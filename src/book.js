@@ -33,6 +33,10 @@ return book = {
   genre: genre}
 }
 
+function editBook(bookTitle){
+  return bookTitle.pageCount = bookTitle.pageCount*.75
+}
+
 module.exports = {
   createTitle,
   buildMainCharacter,
